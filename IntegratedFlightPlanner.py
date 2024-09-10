@@ -263,6 +263,6 @@ class FlightPlanner:
         with open("integrated_flight_plan.plan", "w") as flight_plan:
             flight_plan.write(self.flight_code)
 
-myPlanner = FlightPlanner("maze.txt", 5)
+myPlanner = FlightPlanner("ObstaclesExample.txt", 5)
 
 myPlanner.create_plan((33.7785, -84.402))
